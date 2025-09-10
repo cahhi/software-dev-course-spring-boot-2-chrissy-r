@@ -13,6 +13,9 @@ import java.util.List;
 public class MovieController {
 
     private final List<Movie> movies = new ArrayList<>() {{
+        add(new Movie("The Emperor's New Groove", "Mark Dindal", 2000, 78));
+        add(new Movie("GhostBuster's", "Ivan Reitman", 1984, 105));
+        add(new Movie("Coming to America", "John Landis", 1988, 116));
 
     }};
 
