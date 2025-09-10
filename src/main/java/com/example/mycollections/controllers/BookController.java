@@ -16,11 +16,13 @@ public class BookController {
         add(new Book("1984", "George Orwell", 1949, 328));
     }};
 
+        //Return as JSON
     @GetMapping("/json")
     public List<Book> getBooksJson() {
         return books;
     }
 
+    //Return as HTML
     @GetMapping("/html")
     public String getBooksHtml() {
         String bookList = "<ul>";
